@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class project{
     static Scanner sc = new Scanner(System.in);
     private static void Encryption(){
-        System.out.println("Enter Key : ");
+        System.out.println("Enter Key -> ");
         int key = sc.nextInt();
         FileOutputStream Image_output;
         try (FileInputStream Image_input = new FileInputStream("image.png")) {
